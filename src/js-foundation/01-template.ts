@@ -1,5 +1,4 @@
 
-
 const emailTemplate = `
 <div>
     <h1>Hi, {{name}}</h1>
@@ -7,8 +6,6 @@ const emailTemplate = `
     <p>Order ID: {{orderId}}</p>
 </div>`;
 
-
-
-module.exports = {
+export {
   emailTemplate
 }
