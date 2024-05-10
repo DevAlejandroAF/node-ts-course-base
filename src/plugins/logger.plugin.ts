@@ -35,4 +35,5 @@ const buildLogger = (service: string) => {
 
 export {
   buildLogger,
+  logger,
 }
